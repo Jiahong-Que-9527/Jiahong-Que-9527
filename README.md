@@ -36,21 +36,6 @@
 
 ---
 
-## Academic & Research Focus
-
-<div align="left">
-
-<img src="https://img.shields.io/badge/AI%20for%20Air%20Cargo-87CEFA?style=for-the-badge&logo=airplane&logoColor=white"/>
-<img src="https://img.shields.io/badge/SmartPouch%20Motion%20Classification-87CEFA?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/ADS--B%20Data%20Analysis-87CEFA?style=for-the-badge&logo=airplane&logoColor=white"/>
-<img src="https://img.shields.io/badge/Time%20Series%20Forecasting-87CEFA?style=for-the-badge&logo=timescale&logoColor=white"/>
-<img src="https://img.shields.io/badge/Explainable%20AI%20for%20Logistics-87CEFA?style=for-the-badge&logo=googlecolab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Intelligent%20Transportation%20Systems-87CEFA?style=for-the-badge&logo=googlemaps&logoColor=white"/>
-
-</div>
-
----
-
 ## Industrial Application Focus
 
 <div align="left">
