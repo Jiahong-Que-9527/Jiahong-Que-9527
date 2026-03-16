@@ -12,31 +12,6 @@
 
 <img src="https://img.shields.io/badge/SoloLakehouse-AI%20Ready%20Data%20Platform-87CEFA?style=for-the-badge&logo=databricks&logoColor=white"/>
 <img src="https://img.shields.io/badge/FinLakehouse-Financial%20Data%20Lakehouse-87CEFA?style=for-the-badge&logo=apache-spark&logoColor=white"/>
-<img src="https://img.shields.io/badge/SmartPouch-Industrial%20AI%20Research-87CEFA?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-
-</div>
-
----
-
-## AI, Data & Platform Engineering Skills
-
-<div align="left">
-
-<img src="https://img.shields.io/badge/Python-87CEFA?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-87CEFA?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-87CEFA?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-87CEFA?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-87CEFA?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-87CEFA?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/TensorFlow-87CEFA?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Deep%20Learning-87CEFA?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/Time%20Series%20ML-87CEFA?style=for-the-badge&logo=timescale&logoColor=white"/>
-<img src="https://img.shields.io/badge/Explainable%20AI-87CEFA?style=for-the-badge&logo=googlecolab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-87CEFA?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/MLflow-87CEFA?style=for-the-badge&logo=mlflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-87CEFA?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub%20Actions-87CEFA?style=for-the-badge&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/CI%2FCD-87CEFA?style=for-the-badge&logo=githubactions&logoColor=white"/>
 
 </div>
 
