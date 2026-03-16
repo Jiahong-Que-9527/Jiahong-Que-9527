@@ -1,156 +1,118 @@
-# Jiahong Que
+# Welcome to my portfolio! 👋🏻
 
-AI / ML Engineer • Data Platform Builder • PhD Candidate (AI + Logistics)
-
-I build **AI-ready data platforms and machine learning systems** that bridge research and real-world industrial applications.
-
-Currently a **PhD candidate at Frankfurt University of Applied Sciences**, working on machine learning systems for **air cargo logistics and intelligent transportation**.
-
-My long-term focus is designing **modern data & AI platforms (Lakehouse + MLOps + ML systems)** inspired by companies like Databricks, Snowflake, and modern AI infrastructure teams.
+- I am an **AI / ML Engineer**, **Data Platform Builder**, and **PhD Candidate** working at the intersection of **machine learning, data platforms, and real-world industrial systems**.
+- My work focuses on building **AI-ready data systems**, **MLOps workflows**, and **machine learning applications** for logistics, air cargo, and financial data use cases.
+- I am especially interested in **Lakehouse Architecture**, **ML Systems**, **Time Series Learning**, and **AI Infrastructure**.
 
 ---
 
-# Core Projects
+## Featured Focus Areas
 
-## SoloLakehouse
+<div align="left">
 
-An open-source **AI-ready personal lakehouse platform** inspired by modern data platforms.
+<img src="https://img.shields.io/badge/SoloLakehouse-AI%20Ready%20Data%20Platform-87CEFA?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/FinLakehouse-Financial%20Data%20Lakehouse-87CEFA?style=for-the-badge&logo=apache-spark&logoColor=white"/>
+<img src="https://img.shields.io/badge/SmartPouch-Industrial%20AI%20Research-87CEFA?style=for-the-badge&logo=googlecloud&logoColor=white"/>
 
-Built as a modular architecture for data engineering, analytics, and machine learning.
-
-Stack includes:
-
-• Object Storage — MinIO  
-• Metadata — Hive Metastore  
-• Query Engine — Trino  
-• ML Lifecycle — MLflow  
-• Observability — Prometheus + Grafana  
-• Data Architecture — Medallion (Bronze / Silver / Gold)
-
-Goal:
-
-Build a **reusable open-source template for modern data platforms**.
+</div>
 
 ---
 
-## FinLakehouse
+## AI, Data & Platform Engineering Skills
 
-A financial **data lakehouse + ML system prototype** for market data analytics and risk modeling.
+<div align="left">
 
-The platform continuously collects and processes:
+<img src="https://img.shields.io/badge/Python-87CEFA?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-87CEFA?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-87CEFA?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-87CEFA?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-87CEFA?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-87CEFA?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-87CEFA?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/Deep%20Learning-87CEFA?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Time%20Series%20ML-87CEFA?style=for-the-badge&logo=timescale&logoColor=white"/>
+<img src="https://img.shields.io/badge/Explainable%20AI-87CEFA?style=for-the-badge&logo=googlecolab&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-87CEFA?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/MLflow-87CEFA?style=for-the-badge&logo=mlflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-87CEFA?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-87CEFA?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/CI%2FCD-87CEFA?style=for-the-badge&logo=githubactions&logoColor=white"/>
 
-• Market data  
-• Macroeconomic indicators  
-• Financial news  
-• company reference data  
-
-Pipeline architecture:
-
-Source → Ingestion → Bronze → Silver → Gold → Feature Layer → ML Models
-
-Key focus:
-
-• Data engineering for financial datasets  
-• feature engineering pipelines  
-• ML lifecycle management  
-• model governance with MLflow
-
----
-
-## SmartPouch AI
-
-Industrial research project in collaboration with the **Digital Testbed Air Cargo (DTAC)** initiative.
-
-Goal:
-
-Detect cargo handling processes using **sensor data + machine learning**.
-
-Data sources:
-
-• accelerometer data  
-• gyroscope data  
-• IoT logistics devices
-
-Research topics include:
-
-• motion classification  
-• time-series deep learning  
-• explainable AI for logistics operations
+</div>
 
 ---
 
-# Technical Skills
+## Data Platform & Lakehouse Stack
 
-### Programming
+<div align="left">
 
-Python  
-SQL  
+<img src="https://img.shields.io/badge/MinIO-87CEFA?style=for-the-badge&logo=minio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Trino-87CEFA?style=for-the-badge&logo=trino&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hive%20Metastore-87CEFA?style=for-the-badge&logo=apachehive&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-87CEFA?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Medallion%20Architecture-87CEFA?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Data%20Engineering-87CEFA?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/MLOps-87CEFA?style=for-the-badge&logo=mlflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/Observability-87CEFA?style=for-the-badge&logo=grafana&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prometheus-87CEFA?style=for-the-badge&logo=prometheus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Grafana-87CEFA?style=for-the-badge&logo=grafana&logoColor=white"/>
 
-### Data Engineering
-
-Data Pipelines  
-ETL / ELT Systems  
-Medallion Architecture  
-
-### Machine Learning
-
-PyTorch  
-TensorFlow  
-Scikit-learn  
-Time Series Modeling  
-
-### MLOps
-
-MLflow  
-Experiment Tracking  
-Model Registry  
-
-### Data Platform Tools
-
-Docker  
-Trino  
-MinIO  
-Hive Metastore  
-
-### AI Systems
-
-Deep Learning  
-Time Series Classification  
-Explainable AI  
+</div>
 
 ---
 
-# Research Areas
+## Academic & Research Focus
 
-AI for Logistics  
-Air Cargo Operations  
-Time Series Machine Learning  
-Sensor Data Analytics  
-Explainable AI  
+<div align="left">
 
----
+<img src="https://img.shields.io/badge/AI%20for%20Air%20Cargo-87CEFA?style=for-the-badge&logo=airplane&logoColor=white"/>
+<img src="https://img.shields.io/badge/SmartPouch%20Motion%20Classification-87CEFA?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/ADS--B%20Data%20Analysis-87CEFA?style=for-the-badge&logo=airplane&logoColor=white"/>
+<img src="https://img.shields.io/badge/Time%20Series%20Forecasting-87CEFA?style=for-the-badge&logo=timescale&logoColor=white"/>
+<img src="https://img.shields.io/badge/Explainable%20AI%20for%20Logistics-87CEFA?style=for-the-badge&logo=googlecolab&logoColor=white"/>
+<img src="https://img.shields.io/badge/Intelligent%20Transportation%20Systems-87CEFA?style=for-the-badge&logo=googlemaps&logoColor=white"/>
 
-# Interests
-
-Modern Data Platforms  
-AI Infrastructure  
-Lakehouse Architecture  
-Machine Learning Systems  
-Financial Data Engineering  
+</div>
 
 ---
 
-# Contact
+## Industrial Application Focus
 
-GitHub  
-https://github.com/Jiahong-Que
+<div align="left">
 
-LinkedIn  
-https://www.linkedin.com/in/jiahong-que-215428258/
+<img src="https://img.shields.io/badge/Financial%20Data%20Engineering-87CEFA?style=for-the-badge&logo=apache-spark&logoColor=white"/>
+<img src="https://img.shields.io/badge/Risk%20Analytics-87CEFA?style=for-the-badge&logo=finastra&logoColor=white"/>
+<img src="https://img.shields.io/badge/AI%20Infrastructure-87CEFA?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/ML%20Systems-87CEFA?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Data%20Platform%20Architecture-87CEFA?style=for-the-badge&logo=snowflake&logoColor=white"/>
+<img src="https://img.shields.io/badge/Supply%20Chain%20AI-87CEFA?style=for-the-badge&logo=chainlink&logoColor=white"/>
 
-Email  
-jiahong.que@fb3.fra-uas.de
+</div>
 
 ---
 
-Always open to collaboration, research discussions, and opportunities in **AI Engineering and Data Platform development**.
+## What I’m Building
+
+- **SoloLakehouse** — an open-source, AI-ready personal lakehouse platform inspired by modern data platforms.
+- **FinLakehouse** — a governed financial data lakehouse for analytics, feature pipelines, and ML workflows.
+- **SmartPouch AI** — machine learning systems for cargo handling process detection from sensor data.
+
+---
+
+## My Absolute Favorites
+
+- 💻 Building AI systems, data platforms, and engineering-heavy portfolio projects.
+- 📚 Learning about machine learning, MLOps, lakehouse architecture, and modern AI infrastructure.
+- ✈️ Exploring how AI can improve logistics, air cargo, transportation, and financial systems.
+
+---
+
+## Contact Me
+
+- GitHub: [Jiahong Que](https://github.com/Jiahong-Que)
+- LinkedIn: [Jiahong Que](https://www.linkedin.com/in/jiahong-que-215428258/)
+- Email: [jiahong.que@fb3.fra-uas.de](mailto:jiahong.que@fb3.fra-uas.de)
+
+---
+
+_Always open to collaboration, research discussions, and opportunities in **AI Engineering, Data Platforms, and Machine Learning Systems**._ 🚀
