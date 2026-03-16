@@ -36,26 +36,10 @@
 
 ---
 
-## Industrial Application Focus
-
-<div align="left">
-
-<img src="https://img.shields.io/badge/Financial%20Data%20Engineering-87CEFA?style=for-the-badge&logo=apache-spark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Risk%20Analytics-87CEFA?style=for-the-badge&logo=finastra&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI%20Infrastructure-87CEFA?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/ML%20Systems-87CEFA?style=for-the-badge&logo=databricks&logoColor=white"/>
-<img src="https://img.shields.io/badge/Data%20Platform%20Architecture-87CEFA?style=for-the-badge&logo=snowflake&logoColor=white"/>
-<img src="https://img.shields.io/badge/Supply%20Chain%20AI-87CEFA?style=for-the-badge&logo=chainlink&logoColor=white"/>
-
-</div>
-
----
-
 ## What I’m Building
 
 - **SoloLakehouse** — an open-source, AI-ready personal lakehouse platform inspired by modern data platforms.
 - **FinLakehouse** — a governed financial data lakehouse for analytics, feature pipelines, and ML workflows.
-- **SmartPouch AI** — machine learning systems for cargo handling process detection from sensor data.
 
 ---
 
@@ -69,9 +53,9 @@
 
 ## Contact Me
 
-- GitHub: [Jiahong Que](https://github.com/Jiahong-Que)
+- GitHub: [Jiahong Que](https://github.com/Jiahong-Que-9527)
 - LinkedIn: [Jiahong Que](https://www.linkedin.com/in/jiahong-que-215428258/)
-- Email: [jiahong.que@fb3.fra-uas.de](mailto:jiahong.que@fb3.fra-uas.de)
+- Email: [jiahong.que@fb3.fra-uas.de](mailto:jiahong.que@fra-uas.de)
 
 ---
 
