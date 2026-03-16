@@ -37,7 +37,6 @@
 <img src="https://img.shields.io/badge/Airflow-87CEFA?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/Dagster-87CEFA?style=for-the-badge&logo=dagster&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-87CEFA?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/MLOps-87CEFA?style=for-the-badge&logo=mlflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/Lakeflow-87CEFA?style=for-the-badge&logo=databricks&logoColor=white"/>
 <img src="https://img.shields.io/badge/Delta%20Lake-87CEFA?style=for-the-badge&logo=databricks&logoColor=white"/>
 <img src="https://img.shields.io/badge/Unity%20Catalog-87CEFA?style=for-the-badge&logo=databricks&logoColor=white"/>
