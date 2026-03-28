@@ -1,25 +1,12 @@
 # Hi, I'm Jiahong Que 👋
 
-<table border="0" cellspacing="0" cellpadding="0" rules="none" style="border-collapse: collapse; border-style: hidden;">
-<colgroup>
-<col width="66%" />
-<col width="34%" />
-</colgroup>
-<tr>
-<td width="66%" valign="top" style="border: none; padding: 0 16px 0 0;">
+<img align="right" hspace="20" src="slh-brand.png" alt="SoloLakehouse brand" width="260" />
 
 I build **AI-ready data platforms** and **production-oriented ML systems** at the intersection of **lakehouse architecture, MLOps, and real-world industrial use cases**.
 
 I am currently a **PhD Candidate** and **Research Assistant** in Germany, working on machine learning applications for logistics and air cargo systems. My long-term focus is to grow into a strong **AI / Data Platform Engineer** and eventually a **platform owner**.
 
-</td>
-<td width="34%" valign="middle" align="center" style="border: none; padding: 0;">
-
-<img src="slh-brand.png" alt="SoloLakehouse brand" width="260" />
-
-</td>
-</tr>
-</table>
+<br clear="all" />
 
 ---
 
