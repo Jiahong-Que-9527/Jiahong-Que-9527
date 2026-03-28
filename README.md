@@ -81,26 +81,4 @@ A **governance-first** architecture for finance-scale data: **auditability**, co
 
 ---
 
-## Proof of work
-
-- **[SoloLakehouse_v1](https://github.com/Jiahong-Que-9527/SoloLakehouse_v1)** - open-source lakehouse platform (reference implementation you can fork and run).
-- **FinLakehouse**（under construction）- governance-first financial lakehouse architecture and patterns (see repositories for related work).
-- More experiments and repos on **[my GitHub](https://github.com/Jiahong-Que-9527)**.
-
----
-
-## Research
-
-**ML on real logistics systems** — air cargo visibility, sensor-based activity recognition, and intelligent operations. I care about papers that **land in systems**: reproducible pipelines, measurable latency and cost, and decisions you can defend in production.
-
----
-
-## Connect
-
-- [GitHub](https://github.com/Jiahong-Que-9527)
-- [LinkedIn](https://www.linkedin.com/in/jiahong-que-215428258/)
-- [Email](mailto:jiahong.que@fra-uas.de)
-
----
-
 _Open to **collaboration**, **research**, and roles at the intersection of **AI engineering, data platforms, and ML systems**._ 🚀
