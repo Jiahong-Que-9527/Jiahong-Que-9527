@@ -66,32 +66,31 @@ I am currently a **PhD Candidate** and **Research Assistant** in Germany, workin
 
 ## What I build
 
-<div align="center" style="display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
+<table>
+<tr valign="top">
+<td width="50%">
 
-  <div style="flex: 1; min-width: 280px; max-width: 49%; vertical-align: top;">
-    <h3>SoloLakehouse</h3>
-    <p>
-      An <b>AI-ready personal lakehouse</b> in the spirit of modern platforms (Databricks, Snowflake, etc.) —
-      proving that <b>one engineer</b> can wire up:
-    </p>
-    <ul>
-      <li>durable <b>object storage</b> and <b>open table formats</b></li>
-      <li><b>metadata</b> and <b>SQL</b> that analysts and ML can share</li>
-      <li><b>ML lifecycle</b> hooks without bolting on chaos at the end</li>
-      <li><b>observability</b> and <b>evolvable</b> platform boundaries</li>
-    </ul>
-  </div>
+<h3>SoloLakehouse</h3>
 
-  <div style="flex: 1; min-width: 280px; max-width: 49%; vertical-align: top;">
-    <h3>FinLakehouse</h3>
-    <p>
-      A <b>governance-first</b> architecture for finance-scale data:
-      <b>auditability</b>, controlled analytics paths, <b>ML-ready</b> pipelines,
-      and operational discipline under <b>compliance pressure</b>.
-    </p>
-  </div>
+<p>An <strong>AI-ready personal lakehouse</strong> in the spirit of modern platforms (Databricks, Snowflake, etc.) — proving that <strong>one engineer</strong> can wire up:</p>
 
-</div>
+<ul>
+<li>durable <strong>object storage</strong> and <strong>open table formats</strong></li>
+<li><strong>metadata</strong> and <strong>SQL</strong> that analysts and ML can share</li>
+<li><strong>ML lifecycle</strong> hooks without bolting on chaos at the end</li>
+<li><strong>observability</strong> and <strong>evolvable</strong> platform boundaries</li>
+</ul>
+
+</td>
+<td width="50%">
+
+<h3>FinLakehouse</h3>
+
+<p>A <strong>governance-first</strong> architecture for finance-scale data: <strong>auditability</strong>, controlled analytics paths, <strong>ML-ready</strong> pipelines, and operational discipline under <strong>compliance pressure</strong>.</p>
+
+</td>
+</tr>
+</table>
 
 ---
 
