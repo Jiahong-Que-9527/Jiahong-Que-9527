@@ -6,8 +6,6 @@ I build **AI-ready data platforms** and **production-oriented ML systems** at th
 
 I am currently a **PhD Candidate** and **Research Assistant** in Germany, working on machine learning applications for logistics and air cargo systems. My long-term focus is to grow into a strong **AI / Data Platform Engineer** and eventually a **platform owner**.
 
-<br clear="all" />
-
 ---
 
 ## Flagship work
