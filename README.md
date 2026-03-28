@@ -66,18 +66,32 @@ I am currently a **PhD Candidate** and **Research Assistant** in Germany, workin
 
 ## What I build
 
-### SoloLakehouse
+<div align="center" style="display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
 
-An **AI-ready personal lakehouse** in the spirit of modern platforms (Databricks, Snowflake, etc.) — proving that **one engineer** can wire up:
+  <div style="flex: 1; min-width: 280px; max-width: 49%; vertical-align: top;">
+    <h3>SoloLakehouse</h3>
+    <p>
+      An <b>AI-ready personal lakehouse</b> in the spirit of modern platforms (Databricks, Snowflake, etc.) —
+      proving that <b>one engineer</b> can wire up:
+    </p>
+    <ul>
+      <li>durable <b>object storage</b> and <b>open table formats</b></li>
+      <li><b>metadata</b> and <b>SQL</b> that analysts and ML can share</li>
+      <li><b>ML lifecycle</b> hooks without bolting on chaos at the end</li>
+      <li><b>observability</b> and <b>evolvable</b> platform boundaries</li>
+    </ul>
+  </div>
 
-- durable **object storage** and **open table formats**
-- **metadata** and **SQL** that analysts and ML can share
-- **ML lifecycle** hooks without bolting on chaos at the end
-- **observability** and **evolvable** platform boundaries
+  <div style="flex: 1; min-width: 280px; max-width: 49%; vertical-align: top;">
+    <h3>FinLakehouse</h3>
+    <p>
+      A <b>governance-first</b> architecture for finance-scale data:
+      <b>auditability</b>, controlled analytics paths, <b>ML-ready</b> pipelines,
+      and operational discipline under <b>compliance pressure</b>.
+    </p>
+  </div>
 
-### FinLakehouse
-
-A **governance-first** architecture for finance-scale data: **auditability**, controlled analytics paths, **ML-ready** pipelines, and operational discipline under **compliance pressure**.
+</div>
 
 ---
 
