@@ -4,9 +4,15 @@ I build **AI-ready data platforms** and **production-oriented ML systems** at th
 
 I am currently a **PhD Candidate** and **Research Assistant** in Germany, working on machine learning applications for logistics and air cargo systems. My long-term focus is to grow into a strong **AI / Data Platform Engineer** and eventually a **platform owner**.
 
+<div align="center">
+
+<img src="slh-brand.png" alt="SoloLakehouse brand" width="420" />
+
+</div>
+
 ---
 
-## Featured Projects
+## Flagship work
 
 <div align="left">
 
@@ -15,12 +21,14 @@ I am currently a **PhD Candidate** and **Research Assistant** in Germany, workin
 
 </div>
 
-- **SoloLakehouse** — an open-source reference platform for building an AI-ready lakehouse with modular data, ML, and observability components.
-- **FinLakehouse** — a governance-first financial lakehouse architecture for auditable analytics, feature pipelines, and production-oriented ML workflows.
+| Project | What it is |
+|:---|:---|
+| **SoloLakehouse** | End-to-end **open-source reference lakehouse**: modular data layer, ML hooks, and observability — a credible blueprint for a **one-engineer AI-ready platform**. |
+| **FinLakehouse** | **Governance-first** financial lakehouse: auditable analytics, feature pipelines, and ML workflows built for **regulated, audit-heavy** environments. |
 
 ---
 
-## Platform Capabilities
+## Where I go deep
 
 <div align="left">
 
@@ -34,7 +42,7 @@ I am currently a **PhD Candidate** and **Research Assistant** in Germany, workin
 
 ---
 
-## Selected Stack
+## Stack I ship with
 
 <div align="left">
 
@@ -56,76 +64,42 @@ I am currently a **PhD Candidate** and **Research Assistant** in Germany, workin
 
 </div>
 
----
-
-## What I Build
-
-### **SoloLakehouse**
-An open-source **AI-ready personal lakehouse platform** inspired by modern data platforms such as Databricks and Snowflake.
-
-It is designed to demonstrate how a single engineer can build an end-to-end platform with:
-- object storage
-- metadata management
-- SQL analytics
-- ML lifecycle support
-- observability
-- modular platform evolution
-
-### **FinLakehouse**
-A governance-first **financial data lakehouse architecture** for analytics, feature pipelines, and ML workflows.
-
-This project is focused on:
-- auditable data architecture
-- governed analytics workflows
-- ML-ready financial data pipelines
-- platform thinking for regulated environments
+**Layers:** object storage & table formats · SQL engines & metastore · batch/orchestration · ML lifecycle · metrics, logs, and delivery to cluster.
 
 ---
 
-## Core Focus Areas
+## What I build
 
-- **Lakehouse Architecture**
-- **Data Platform Engineering**
-- **MLOps and ML Systems**
-- **Observability and Platform Operations**
-- **Industrial AI Applications**
-- **Open-Source Platform Building**
+### SoloLakehouse
 
----
+An **AI-ready personal lakehouse** in the spirit of modern platforms (Databricks, Snowflake, etc.) — proving that **one engineer** can wire up:
 
-## Selected Stack
+- durable **object storage** and **open table formats**
+- **metadata** and **SQL** that analysts and ML can share
+- **ML lifecycle** hooks without bolting on chaos at the end
+- **observability** and **evolvable** platform boundaries
 
-**Platform & Data**
-MinIO · Trino · Hive Metastore · PostgreSQL · Delta Lake · Apache Iceberg
+### FinLakehouse
 
-**Data Engineering**
-PySpark · SQL · Airflow · Dagster · Medallion Architecture
-
-**ML & MLOps**
-MLflow · Feature Pipelines · Model Lifecycle Workflows
-
-**Platform Ops**
-Prometheus · Grafana · CI/CD · Docker Compose · Kubernetes
+A **governance-first** architecture for finance-scale data: **auditability**, controlled analytics paths, **ML-ready** pipelines, and operational discipline under **compliance pressure**.
 
 ---
 
-## Proof of Work
+## Proof of work
 
-- [SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse_v1) — open-source lakehouse platform project
-- FinLakehouse — governance-first financial lakehouse architecture project
-- More projects and experiments are available in my repositories below
-
----
-
-## Research Direction
-
-My research focuses on applying **machine learning to real-world logistics systems**, especially in **air cargo visibility, sensor-based activity recognition, and intelligent operational systems**.
-
-I am particularly interested in turning research into **production-grade systems** with real engineering value.
+- **[SoloLakehouse_v1](https://github.com/Jiahong-Que-9527/SoloLakehouse_v1)** - open-source lakehouse platform (reference implementation you can fork and run).
+- **FinLakehouse** （under construction） - governance-first financial lakehouse architecture and patterns (see repositories for related work).
+- More experiments and repos on **[my GitHub](https://github.com/Jiahong-Que-9527)**.
 
 ---
 
-## Connect with Me
+## Research
+
+**ML on real logistics systems** — air cargo visibility, sensor-based activity recognition, and intelligent operations. I care about papers that **land in systems**: reproducible pipelines, measurable latency and cost, and decisions you can defend in production.
+
+---
+
+## Connect
 
 - [GitHub](https://github.com/Jiahong-Que-9527)
 - [LinkedIn](https://www.linkedin.com/in/jiahong-que-215428258/)
@@ -133,6 +107,4 @@ I am particularly interested in turning research into **production-grade systems
 
 ---
 
-
-
-_Always open to collaboration, research discussions, and opportunities in **AI Engineering, Data Platforms, and Machine Learning Systems**._ 🚀
+_Open to **collaboration**, **research**, and roles at the intersection of **AI engineering, data platforms, and ML systems**._ 🚀
