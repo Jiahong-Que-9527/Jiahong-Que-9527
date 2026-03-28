@@ -1,14 +1,25 @@
 # Hi, I'm Jiahong Que 👋
 
+<table>
+<colgroup>
+<col width="66%" />
+<col width="34%" />
+</colgroup>
+<tr>
+<td width="66%" valign="top">
+
 I build **AI-ready data platforms** and **production-oriented ML systems** at the intersection of **lakehouse architecture, MLOps, and real-world industrial use cases**.
 
 I am currently a **PhD Candidate** and **Research Assistant** in Germany, working on machine learning applications for logistics and air cargo systems. My long-term focus is to grow into a strong **AI / Data Platform Engineer** and eventually a **platform owner**.
 
-<div align="center">
+</td>
+<td width="34%" valign="middle" align="center">
 
-<img src="slh-brand.png" alt="SoloLakehouse brand" width="420" />
+<img src="slh-brand.png" alt="SoloLakehouse brand" width="260" />
 
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -88,7 +99,7 @@ A **governance-first** architecture for finance-scale data: **auditability**, co
 ## Proof of work
 
 - **[SoloLakehouse_v1](https://github.com/Jiahong-Que-9527/SoloLakehouse_v1)** - open-source lakehouse platform (reference implementation you can fork and run).
-- **FinLakehouse** （under construction） - governance-first financial lakehouse architecture and patterns (see repositories for related work).
+- **FinLakehouse**（under construction）- governance-first financial lakehouse architecture and patterns (see repositories for related work).
 - More experiments and repos on **[my GitHub](https://github.com/Jiahong-Que-9527)**.
 
 ---
