@@ -86,7 +86,14 @@ I am currently a **PhD Candidate** and **Research Assistant** in Germany, workin
 
 <h3>FinLakehouse</h3>
 
-<p>A <strong>governance-first</strong> architecture for finance-scale data: <strong>auditability</strong>, controlled analytics paths, <strong>ML-ready</strong> pipelines, and operational discipline under <strong>compliance pressure</strong>.</p>
+<p>A <strong>governance-first</strong> financial lakehouse for regulated, audit-heavy teams — showing how <strong>one coherent platform</strong> can deliver defensible analytics and <strong>ML</strong> without trading away control:</p>
+
+<ul>
+<li><strong>auditability</strong> and <strong>lineage-friendly</strong> layers that hold up to scrutiny and review</li>
+<li><strong>controlled analytics paths</strong> so SQL, dashboards, and experiments share a governed surface</li>
+<li><strong>ML-ready</strong> pipelines with disciplined promotion from features to training and serving</li>
+<li><strong>operational discipline</strong> — monitoring, change management, and SLAs under <strong>compliance pressure</strong></li>
+</ul>
 
 </td>
 </tr>
