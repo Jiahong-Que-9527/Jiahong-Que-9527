@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="slh-brand.png" alt="SoloLakehouse brand" width="180" />
+<img src="slh-brand.png" alt="SoloLakehouse brand" style="width:60%;" />
 
-# Hi, I'm Jiahong (Bill) Que
+# Hi, I'm Jiahong Que
 
 ### Compliance-first Lakehouse · Data Platform Engineering · MLOps
 
@@ -44,13 +44,13 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
 | **Compliance posture** | Architecture Decision Records covering DORA Article 28, ICT third-party risk, audit trail, lineage, and access control |
 | **Differentiation** | Most open lakehouses optimize for scale. SLH optimizes for **regulatory defensibility**, where architecture decisions need to survive review |
 
-<p>
+<div align="center">
   <a href="https://github.com/Jiahong-Que-9527/SoloLakehouse"><strong>Repository</strong></a>
   ·
   <a href="https://github.com/Jiahong-Que-9527/SoloLakehouse"><strong>Architecture</strong></a>
   ·
   <a href="https://github.com/Jiahong-Que-9527/SoloLakehouse"><strong>ADRs</strong></a>
-</p>
+</div>
 
 ---
 
@@ -160,18 +160,17 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
 
 ## Credentials
 
-- **Databricks Certified Data Engineer Professional**
+- **Databricks Certified Data Engineer Professional** （in progress）
 - **Databricks Certified Generative AI Engineer Associate**
 - **PhD Candidate**, Frankfurt University of Applied Sciences
-- Published research on **IMU-based cargo handling state classification**
 
 ---
 
 ## GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jiahong-Que-9527&show_icons=true&hide_border=true&theme=default" alt="Jiahong Que GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jiahong-Que-9527&layout=compact&hide_border=true&theme=default" alt="Jiahong Que top languages" height="165" />
+  <img src="https://gh-stats.work/api?username=Jiahong-Que-9527&show_icons=true&hide_border=true&theme=default" alt="Jiahong Que GitHub stats" height="165" />
+  <img src="https://gh-stats.work/api/top-langs/?username=Jiahong-Que-9527&layout=compact&hide_border=true&theme=default" alt="Jiahong Que top languages" height="165" />
 </div>
 
 ---
