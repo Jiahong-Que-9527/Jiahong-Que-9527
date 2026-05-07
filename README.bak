@@ -19,7 +19,7 @@ I am currently a **PhD Candidate** and **Research Assistant** in Germany, workin
 
 | Project | What it is |
 |:---|:---|
-| **SoloLakehouse** | End-to-end **open-source reference lakehouse**: modular data layer, ML hooks, and observability — a credible blueprint for a **one-engineer AI-ready platform**. |
+| **SoloLakehouse** | A **local-first, cloud-neutral lakehouse reference architecture** running on Docker Compose (MinIO + Trino + Iceberg + Dagster + MLflow + OpenMetadata + Superset), designed to demonstrate **audit-ready and production-minded platform engineering** by a single engineer. |
 | **FinLakehouse** | **Governance-first** financial lakehouse: auditable analytics, feature pipelines, and ML workflows built for **regulated, audit-heavy** environments. |
 
 ---
@@ -72,13 +72,13 @@ I am currently a **PhD Candidate** and **Research Assistant** in Germany, workin
 
 <h3>SoloLakehouse</h3>
 
-<p>An <strong>AI-ready personal lakehouse</strong> in the spirit of modern platforms (Databricks, Snowflake, etc.) — proving that <strong>one engineer</strong> can wire up:</p>
+<p>A <strong>runnable, readable, cloud-neutral lakehouse reference implementation</strong> that proves <strong>one engineer</strong> can build a production-minded platform without relying on managed SaaS lakehouse services:</p>
 
 <ul>
-<li>durable <strong>object storage</strong> and <strong>open table formats</strong></li>
-<li><strong>metadata</strong> and <strong>SQL</strong> that analysts and ML can share</li>
-<li><strong>ML lifecycle</strong> hooks without bolting on chaos at the end</li>
-<li><strong>observability</strong> and <strong>evolvable</strong> platform boundaries</li>
+<li>an end-to-end <strong>Bronze → Silver → Gold → ML</strong> data path on open components</li>
+<li><strong>open table format discipline</strong> with Iceberg Gold and federated SQL access through Trino</li>
+<li><strong>asset-aware orchestration and governance</strong> (Dagster + OpenMetadata + Superset) for lineage and operational clarity</li>
+<li><strong>ML tracking with reproducibility hooks</strong> via MLflow, while keeping architecture boundaries explicit and evolvable</li>
 </ul>
 
 </td>
