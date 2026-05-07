@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="slh-brand.png" alt="SoloLakehouse brand" style="width:60%;" />
+<img src="slh-brand.png" alt="SoloLakehouse brand" style="width:45%;" />
 
 # Hi, I'm Jiahong Que
 
@@ -178,7 +178,7 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
 ## Connect
 
 <p>
-  <a href="#">
+  <a href="https://www.linkedin.com/in/jiahong-que-215428258/">
     <img src="https://img.shields.io/badge/LinkedIn-Jiahong%20Que-1F6FEB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Jiahong-Que-9527">
