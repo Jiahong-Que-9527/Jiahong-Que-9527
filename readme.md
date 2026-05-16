@@ -1,20 +1,21 @@
 <div align="center">
 
-<img src="slh-brand.png" alt="SoloLakehouse brand" style="width:45%;" />
 
-# Hi, I'm Jiahong Que
+  <h1 style="margin-bottom: 0.2em;">Hi, I'm <span style="color: #3962c1;">Jiahong Que</span></h1>
+  <h3 style="font-weight:500; color:#4f5a6a;">Compliance-first Lakehouse · Data Platform Engineering · MLOps</h3>
 
-### Compliance-first Lakehouse · Data Platform Engineering · MLOps
+  <p style="font-size: 1.1em; color: #363c48; margin-top:0.5em;">
+    📍 Based in <b>Frankfurt am Main, Germany</b><br>
+    I build <b>AI-ready, audit-friendly data platforms</b> for regulated environments.<br>
+    Passionate about <b>open lakehouse architecture</b>, <b>ML systems</b>, and <b>EU financial regulation</b>.
+  </p>
 
-Based in **Frankfurt am Main, Germany**. I build **AI-ready, audit-friendly data platforms** for regulated environments, with a focus on **open lakehouse architecture**, **ML systems**, and **EU financial regulation**.
-
-<p>
-  <img src="https://img.shields.io/badge/EU%20FinTech-Compliance%20First-1F6FEB?style=for-the-badge" alt="EU FinTech Compliance First" />
-  <img src="https://img.shields.io/badge/Lakehouse-Open%20Architecture-87CEFA?style=for-the-badge&logo=databricks&logoColor=white" alt="Lakehouse Open Architecture" />
-  <img src="https://img.shields.io/badge/MLOps-Production%20Minded-87CEFA?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLOps Production Minded" />
-  <img src="https://img.shields.io/badge/DORA%20%7C%20BaFin%20%7C%20MiFID%20II-Aware-1F6FEB?style=for-the-badge" alt="DORA BaFin MiFID II Aware" />
-</p>
-
+  <div style="margin-top:18px; margin-bottom: 0;">
+    <img src="https://img.shields.io/badge/EU%20FinTech-Compliance%20First-1F6FEB?style=for-the-badge" alt="EU FinTech Compliance First" />
+    <img src="https://img.shields.io/badge/Lakehouse-Open%20Architecture-87CEFA?style=for-the-badge&logo=databricks&logoColor=white" alt="Lakehouse Open Architecture" />
+    <img src="https://img.shields.io/badge/MLOps-Production%20Minded-87CEFA?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLOps Production Minded" />
+    <img src="https://img.shields.io/badge/DORA%20%7C%20BaFin%20%7C%20MiFID%20II-Aware-1F6FEB?style=for-the-badge" alt="DORA BaFin MiFID II Aware" />
+  </div>
 </div>
 
 ---
