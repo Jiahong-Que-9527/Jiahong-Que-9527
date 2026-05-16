@@ -27,7 +27,7 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
 
 ---
 
-## Flagship Project: SoloLakehouse
+## Flagship Project: [SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse)
 
 <div align="left">
   <img src="https://img.shields.io/badge/SoloLakehouse-Compliance%20First%20Open%20Lakehouse-87CEFA?style=for-the-badge&logo=databricks&logoColor=white" alt="SoloLakehouse" />
@@ -51,86 +51,6 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
   ·
   <a href="https://github.com/Jiahong-Que-9527/SoloLakehouse"><strong>ADRs</strong></a>
 </div>
-
----
-
-## Applied Case: FinLakehouse
-
-**FinLakehouse (FLH)** is a financial-domain application built on top of SLH. It shows how the platform can support regulated analytics, feature pipelines, and ML workflows in audit-heavy environments.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>Platform proof</h3>
-
-<ul>
-  <li>Governed analytics over lakehouse layers</li>
-  <li>Reproducible ML workflows with clear promotion paths</li>
-  <li>Lineage-friendly design for dashboards, features, and model artifacts</li>
-  <li>Operational discipline around monitoring, ownership, and change review</li>
-</ul>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>Compliance angle</h3>
-
-<ul>
-  <li>DORA-aware ICT third-party risk thinking</li>
-  <li>BaFin / BAIT-style control mindset</li>
-  <li>MiFID II reporting and audit-readiness as design pressure</li>
-  <li>Open-source architecture without managed vendor lock-in</li>
-</ul>
-
-</td>
-</tr>
-</table>
-
----
-
-## Where I Go Deep
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-<h3>Data Platforms</h3>
-
-<ul>
-  <li>Lakehouse architecture</li>
-  <li>Open table formats</li>
-  <li>SQL engines and metastores</li>
-  <li>Batch pipelines and orchestration</li>
-</ul>
-
-</td>
-<td width="33%" valign="top">
-
-<h3>ML Systems</h3>
-
-<ul>
-  <li>MLOps workflows</li>
-  <li>Feature and training pipelines</li>
-  <li>Experiment tracking</li>
-  <li>Reproducibility and promotion</li>
-</ul>
-
-</td>
-<td width="33%" valign="top">
-
-<h3>Regulated Engineering</h3>
-
-<ul>
-  <li>Audit trails and lineage</li>
-  <li>Governance by design</li>
-  <li>Observability and platform operations</li>
-  <li>EU financial regulation awareness</li>
-</ul>
-
-</td>
-</tr>
-</table>
 
 ---
 
