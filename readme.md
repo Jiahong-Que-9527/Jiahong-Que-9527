@@ -114,16 +114,6 @@ My engineering direction is to grow into a strong **AI Engineer / Data Platform 
 
 ---
 
-## Credentials & Education
-
-- **Databricks Certified AI Engineer Associate**
-- **PhD Candidate**, AI and Logistics — Frankfurt University of Applied Sciences
-- **IELTS Academic** — Overall Band 7.5
-- **Goethe-Zertifikat B1** — Reading & Listening
-- M.S. Computer Science, UESTC · Doctoral Research, Maastricht University
-
----
-
 ## Selected Talks
 
 - **HICL 2026** — *Taxi-In Time Prediction for Airport Ground Operations Using Explainable Machine Learning*
