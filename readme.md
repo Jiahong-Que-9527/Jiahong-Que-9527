@@ -2,19 +2,19 @@
 
 
   <h1 style="margin-bottom: 0.2em;">Hi, I'm <span style="color: #3962c1;">Jiahong Que</span></h1>
-  <h3 style="font-weight:500; color:#4f5a6a;">Compliance-first Lakehouse · Data Platform Engineering · MLOps</h3>
+  <h3 style="font-weight:500; color:#4f5a6a;">Applied AI · Aviation & Logistics · Data Platform Engineering</h3>
 
   <p style="font-size: 1.1em; color: #363c48; margin-top:0.5em;">
     📍 Based in <b>Frankfurt am Main, Germany</b><br>
-    I build <b>AI-ready, audit-friendly data platforms</b> for regulated environments.<br>
-    Passionate about <b>open lakehouse architecture</b>, <b>ML systems</b>, and <b>EU financial regulation</b>.
+    I turn operational and sensor data into <b>explainable, governance-ready AI solutions</b><br>
+    for aviation and logistics — from research prototypes to platform-oriented delivery.
   </p>
 
   <div style="margin-top:18px; margin-bottom: 0;">
-    <img src="https://img.shields.io/badge/EU%20FinTech-Compliance%20First-1F6FEB?style=for-the-badge" alt="EU FinTech Compliance First" />
-    <img src="https://img.shields.io/badge/Lakehouse-Open%20Architecture-87CEFA?style=for-the-badge&logo=databricks&logoColor=white" alt="Lakehouse Open Architecture" />
-    <img src="https://img.shields.io/badge/MLOps-Production%20Minded-87CEFA?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLOps Production Minded" />
-    <img src="https://img.shields.io/badge/DORA%20%7C%20BaFin%20%7C%20MiFID%20II-Aware-1F6FEB?style=for-the-badge" alt="DORA BaFin MiFID II Aware" />
+    <img src="https://img.shields.io/badge/Aviation%20%26%20Logistics-Applied%20Domain-1F6FEB?style=for-the-badge" alt="Aviation and Logistics" />
+    <img src="https://img.shields.io/badge/Applied%20ML-Explainability-87CEFA?style=for-the-badge&logo=python&logoColor=white" alt="Applied ML and Explainability" />
+    <img src="https://img.shields.io/badge/Data%20Platform-Engineering-87CEFA?style=for-the-badge&logo=databricks&logoColor=white" alt="Data Platform Engineering" />
+    <img src="https://img.shields.io/badge/GenAI-RAG-1F6FEB?style=for-the-badge&logo=openai&logoColor=white" alt="GenAI and RAG" />
   </div>
 </div>
 
@@ -22,28 +22,32 @@
 
 ## What I am building toward
 
-I am currently a **PhD Candidate** and **Research Assistant**, working on machine learning applications in aviation operations. My engineering direction is clear: becoming a strong **Senior Platform / Data Engineer** for EU FinTech and other regulated data environments.
+I am a **PhD Candidate** in AI and Logistics and **Research Assistant / Doctoral Researcher** at Frankfurt University of Applied Sciences (Jan 2024 – Present). Within the [Digital Testbed Air Cargo (DTAC)](https://www.digital-testbed-air-cargo.com/) project, I develop applied AI and ML workflows for real aviation and logistics use cases — including SmartPouch-based cargo movement classification, ADS-B data processing, and explainable ML for airport ground operations.
 
-> I care about data platforms that are not only scalable, but also explainable, operable, and defensible under audit.
+My engineering direction is to grow into a strong **AI Engineer / Data Platform Engineer**, combining aviation domain experience with governed, production-oriented data and ML platforms.
+
+> I care about data and AI systems that are not only accurate, but also explainable, operable, and useful for domain experts under real operational constraints.
 
 ---
 
-## Flagship Project: [SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse)
+## Featured Projects
+
+### [SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse)
 
 <div align="left">
-  <img src="https://img.shields.io/badge/SoloLakehouse-Compliance%20First%20Open%20Lakehouse-87CEFA?style=for-the-badge&logo=databricks&logoColor=white" alt="SoloLakehouse" />
+  <img src="https://img.shields.io/badge/SoloLakehouse-Governance%20First%20Open%20Lakehouse-87CEFA?style=for-the-badge&logo=databricks&logoColor=white" alt="SoloLakehouse" />
   <img src="https://img.shields.io/badge/Self--Hosted-Cloud%20Neutral-1F6FEB?style=for-the-badge" alt="Self Hosted Cloud Neutral" />
-  <img src="https://img.shields.io/badge/Audit%20Ready-Lineage%20Driven-1F6FEB?style=for-the-badge" alt="Audit Ready Lineage Driven" />
+  <img src="https://img.shields.io/badge/Lineage%20Driven-Audit%20Friendly-1F6FEB?style=for-the-badge" alt="Lineage Driven Audit Friendly" />
 </div>
 
-**SoloLakehouse (SLH)** is a self-hosted, cloud-neutral, compliance-first lakehouse reference architecture. It demonstrates how one engineer can design and operate a regulator-defensible data platform without depending on managed SaaS lakehouse vendors.
+**SoloLakehouse (SLH)** is a self-hosted, cloud-neutral, governance-first lakehouse prototype. It connects aviation data standards, ML workflows, and metadata/lineage management — demonstrating how one engineer can design and operate an auditable data platform without depending on managed SaaS lakehouse vendors.
 
 | Area | Design |
 |:---|:---|
-| **Core stack** | Apache Iceberg · Trino · Dagster · MLflow · MinIO / SeaweedFS · Superset · OpenMetadata |
+| **Core stack** | Apache Iceberg · Delta Lake · Trino · Dagster · MLflow · MinIO / SeaweedFS · Superset · OpenMetadata |
 | **Data path** | Bronze → Silver → Gold → ML, with explicit governance and lineage boundaries |
-| **Compliance posture** | Architecture Decision Records covering DORA Article 28, ICT third-party risk, audit trail, lineage, and access control |
-| **Differentiation** | Most open lakehouses optimize for scale. SLH optimizes for **regulatory defensibility**, where architecture decisions need to survive review |
+| **Governance posture** | Architecture decisions documented for lineage, access control, and audit-friendly operations |
+| **Differentiation** | Most open lakehouses optimize for scale. SLH optimizes for **governed, explainable workflows** where architecture decisions need to survive review |
 
 <div align="center">
   <a href="https://github.com/Jiahong-Que-9527/SoloLakehouse"><strong>Repository</strong></a>
@@ -53,15 +57,46 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
   <a href="https://github.com/Jiahong-Que-9527/SoloLakehouse"><strong>ADRs</strong></a>
 </div>
 
+### [RecordChat](https://github.com/Jiahong-Que-9527/RecordChat)
+
+<div align="left">
+  <img src="https://img.shields.io/badge/RecordChat-ONE%20Record%20AI%20Assistant-87CEFA?style=for-the-badge&logo=openai&logoColor=white" alt="RecordChat" />
+  <img src="https://img.shields.io/badge/IATA%20ONE%20Record-Aviation%20Standards-1F6FEB?style=for-the-badge" alt="IATA ONE Record Aviation Standards" />
+  <img src="https://img.shields.io/badge/Citation--First-Source%20Grounded-1F6FEB?style=for-the-badge" alt="Citation First Source Grounded" />
+  <img src="https://img.shields.io/badge/Open%20Source-Community%20Helper-87CEFA?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Community Helper" />
+</div>
+
+**RecordChat** is an open-source, domain-specific AI assistant that makes **IATA ONE Record** easier to learn and explore. ONE Record spans specifications, ontology, REST API, JSON-LD payloads, and server implementations like **NE:ONE** — RecordChat shortens that learning path with **grounded, source-cited answers** instead of generic chatbot behavior.
+
+| Area | Design |
+|:---|:---|
+| **Core stack** | FastAPI · Next.js · Qdrant · pluggable LLM / embedding providers · Docker Compose |
+| **Knowledge scope** | ONE Record specs · ontology (classes, properties, relationships) · JSON-LD · NE:ONE server guidance |
+| **Domain tools** | Ontology-aware retrieval & reranking · JSON-LD example generation · Mermaid diagrams for flows and relationships |
+| **Differentiation** | Most AI chatbots optimize for fluency. RecordChat optimizes for **traceability**, helping developers and logistics teams understand ONE Record with auditable, source-linked answers |
+
+**Try asking:** *What is a LogisticsObject?* · *How do Shipment, Piece, and Waybill relate?* · *Generate a JSON-LD example for a Piece* · *How do I run NE:ONE locally?*
+
+<div align="center">
+  <a href="https://github.com/Jiahong-Que-9527/RecordChat"><strong>Repository</strong></a>
+  ·
+  <a href="https://github.com/Jiahong-Que-9527/RecordChat/blob/main/SPEC.md"><strong>SPEC</strong></a>
+  ·
+  <a href="https://github.com/Jiahong-Que-9527/RecordChat/blob/main/docs/data_compliance_report.md"><strong>Data Compliance</strong></a>
+</div>
+
+
 ---
 
 ## Stack I Ship With
 
 <div align="left">
   <img src="https://img.shields.io/badge/Apache%20Iceberg-87CEFA?style=for-the-badge&logo=apacheiceberg&logoColor=white" alt="Apache Iceberg" />
+  <img src="https://img.shields.io/badge/Delta%20Lake-87CEFA?style=for-the-badge&logo=databricks&logoColor=white" alt="Delta Lake" />
   <img src="https://img.shields.io/badge/Trino-87CEFA?style=for-the-badge&logo=trino&logoColor=white" alt="Trino" />
   <img src="https://img.shields.io/badge/Dagster-87CEFA?style=for-the-badge&logo=dagster&logoColor=white" alt="Dagster" />
   <img src="https://img.shields.io/badge/MLflow-87CEFA?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow" />
+  <img src="https://img.shields.io/badge/FastAPI-87CEFA?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/MinIO-87CEFA?style=for-the-badge&logo=minio&logoColor=white" alt="MinIO" />
   <img src="https://img.shields.io/badge/PySpark-87CEFA?style=for-the-badge&logo=apachespark&logoColor=white" alt="PySpark" />
   <img src="https://img.shields.io/badge/PostgreSQL-87CEFA?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -75,15 +110,25 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
   <img src="https://img.shields.io/badge/GitHub%20Actions-87CEFA?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </div>
 
-**Platform layers:** object storage and open table formats · SQL engines and metadata · orchestration · ML lifecycle · governance and lineage · observability · IaC and delivery.
+**Platform layers:** sensor & operational data · open table formats · SQL & metadata · orchestration · ML lifecycle & explainability · GenAI/RAG APIs · observability · IaC
 
 ---
 
-## Credentials
+## Credentials & Education
 
-- **Databricks Certified Data Engineer Professional** （in progress）
-- **Databricks Certified Generative AI Engineer Associate**
-- **PhD Candidate**, Frankfurt University of Applied Sciences
+- **Databricks Certified AI Engineer Associate**
+- **PhD Candidate**, AI and Logistics — Frankfurt University of Applied Sciences
+- **IELTS Academic** — Overall Band 7.5
+- **Goethe-Zertifikat B1** — Reading & Listening
+- M.S. Computer Science, UESTC · Doctoral Research, Maastricht University
+
+---
+
+## Selected Talks
+
+- **HICL 2026** — *Taxi-In Time Prediction for Airport Ground Operations Using Explainable Machine Learning*
+- **LM25 2025**, Milan — *Comparing and Predicting Taxi-In Times for Passenger and Cargo Flights at Frankfurt Airport*
+- **ATRS World Conference 2025**, Hong Kong — *An Enhanced System for Air Cargo Movement Detection Using Deep Learning and Explainable AI*
 
 ---
 
@@ -99,6 +144,9 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
 ## Connect
 
 <p>
+  <a href="mailto:jiahong.que@fra-uas.de">
+    <img src="https://img.shields.io/badge/Email-Jiahong%20Que-1F6FEB?style=for-the-badge&logo=google&logoColor=white" alt="Email jiahong.que@fra-uas.de" />
+  </a>
   <a href="https://www.linkedin.com/in/jiahong-que-215428258/">
     <img src="https://img.shields.io/badge/LinkedIn-Jiahong%20Que-1F6FEB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -107,4 +155,4 @@ I am currently a **PhD Candidate** and **Research Assistant**, working on machin
   </a>
 </p>
 
-Open to **collaboration with EU FinTech teams**, **research conversations**, and **Senior Platform / Data Engineer** opportunities at the intersection of data platforms, ML systems, and EU financial regulation.
+Open to **collaboration on aviation & logistics digitalization**, **research conversations**, and **AI / Data Platform Engineer** roles at the intersection of applied ML, governed data workflows, and production-oriented platform engineering.
