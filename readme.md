@@ -4,7 +4,7 @@
 
 Frankfurt am Main, Germany
 
-I build applied AI workflows for air-cargo operations and the data-platform foundations that make those workflows reproducible, traceable, and easier to operate. My work spans aviation-domain ML, source-grounded LLM applications, and a self-hosted lakehouse reference platform.
+At Frankfurt University of Applied Sciences, I work on applied AI for air-cargo and airport operations. I also build the data-platform foundations that make AI workflows reproducible, traceable, and easier to operate: aviation-domain ML, source-grounded LLM applications, and a self-hosted lakehouse reference platform.
 
 ## Selected work
 
@@ -18,6 +18,6 @@ I am interested in the step beyond a working model: data contracts, orchestratio
 
 **Core tools:** Python · Docker · Apache Iceberg · Trino · Dagster · MLflow · FastAPI · Qdrant
 
-**Current direction:** Kubernetes and cloud deployment are areas I am developing, not capabilities I claim to have operated at enterprise scale.
+**Credentials:** Google Cloud Professional Cloud Architect · Databricks Certified AI Engineer Associate
 
 [LinkedIn](https://www.linkedin.com/in/jiahong-que-215428258/) · [Email](mailto:jiahong.que@fra-uas.de)
