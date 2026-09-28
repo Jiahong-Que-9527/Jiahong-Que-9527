@@ -19,13 +19,13 @@ These are **complementary pieces of one engineering direction**, not a claim tha
 
 ## Explore the engineering
 
-### [SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse) — governed Data & AI platform
+### [SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse): governed Data & AI platform
 
 - Docker Compose runtime integrating **Apache Iceberg, Trino, Dagster, MLflow, OpenMetadata, MinIO, and Superset**.
 - A Bronze → Silver → Gold data path, versioned dataset contracts, quality checks, and evidence that links orchestration runs to table snapshots and metadata.
 - Documented architecture decisions and operational checks, with the boundary between what runs today and the planned Kubernetes migration made explicit in the [README](https://github.com/Jiahong-Que-9527/SoloLakehouse#readme).
 
-### [RecordChat](https://github.com/Jiahong-Que-9527/Recordchat) — source-grounded air-cargo AI
+### [RecordChat](https://github.com/Jiahong-Que-9527/Recordchat): source-grounded air-cargo AI
 
 - A **Next.js + FastAPI + Qdrant** application for questions about ONE Record concepts, JSON-LD, APIs, and NE:ONE.
 - Reviewed public sources, retrieval evaluation, source citations, and template-based JSON-LD examples keep answers inspectable rather than merely fluent.
@@ -39,4 +39,4 @@ I am a Research Assistant / Doctoral Researcher at Frankfurt University of Appli
 
 **Credentials:** Google Cloud Professional Cloud Architect · Databricks Certified AI Engineer Associate
 
-I am interested in **AI Platform, Data Platform, and ML Platform Engineering** roles where domain understanding and reliable delivery matter together—particularly in aviation, logistics, and other complex operational environments.
+I am interested in **AI Platform, Data Platform, and ML Platform Engineering** roles where domain understanding and reliable delivery matter together, particularly in aviation, logistics, and other complex operational environments.
