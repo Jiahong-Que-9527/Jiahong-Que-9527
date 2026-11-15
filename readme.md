@@ -1,42 +1,37 @@
 <h1 align="center">Jiahong Que</h1>
 
-<p align="center"><strong>AI &amp; Data Platform Engineer · Aviation &amp; Air Cargo</strong><br>
+<p align="center"><strong>Data &amp; AI Platform Engineer · Aviation &amp; Air Cargo</strong><br>
 Frankfurt am Main, Germany · <a href="https://www.linkedin.com/in/jiahong-que-215428258/">LinkedIn</a> · <a href="mailto:jiahong.que@fra-uas.de">Email</a></p>
 
-I work at the intersection of **operational logistics, applied AI, and data-platform engineering**. At Frankfurt University of Applied Sciences, I build AI and data workflows for German air-cargo and airport operations. My broader background spans more than ten years in aviation technology, software-enabled systems, and logistics.
+<!-- [房玄龄·2026-11-15] Update project descriptions and links to current engineering evidence. -->
 
-The question behind my work is practical: **how do we move from a promising model or industry data standard to a system that other people can reproduce, inspect, and use?** I focus on the data contracts, orchestration, evaluation, APIs, lineage, and operational evidence needed along that path.
+I build data pipelines and AI services for aviation, air cargo, and other complex operations. I focus on data quality, traceable outputs, and recovery when a pipeline fails.
 
-## From air-cargo data exchange to AI-ready platforms
+## SoloLakehouse
 
-| Layer | Representative work | What it demonstrates |
-|---|---|---|
-| **Operational AI** | Air-cargo movement classification and explainable airport ground-operations ML within the [Digital Testbed Air Cargo](https://www.digital-testbed-air-cargo.com/) context | Domain understanding, sensor/operational data processing, model evaluation, and communication with logistics workflows. |
-| **Industry knowledge interface** | [RecordChat](https://github.com/Jiahong-Que-9527/Recordchat) | A citation-first assistant for IATA ONE Record and NE:ONE, connecting public specifications and ontology to usable, source-linked answers. |
-| **Platform foundations** | [SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse) | A self-hosted reference platform for governed data flows, reproducible analytics, ML tracking, lineage, and operational evidence. |
+[SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse) is my personal data and AI engineering project. I version code, data contracts, and tests in Git. The current implementation runs locally, with projects planned for Google Cloud and Databricks.
 
-These are **complementary pieces of one engineering direction**, not a claim that they already form a single deployed enterprise platform. SoloLakehouse's current reference pipeline uses **ECB and EWG financial-market data**; the air-cargo work and RecordChat are separate domain applications.
+### Fraport ADS-B Intelligence
 
-## Explore the engineering
+I'm building a historical dataset of aircraft observations around Frankfurt Airport. The [OpenSky ingestion tool](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/Fraport-adsb-intelligence/01-opensky-acquisition) writes hourly ADS-B state vectors to Parquet, records checksums in manifests, and resumes from the last committed hour.
 
-### [SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse): governed Data & AI platform
+- **Pilot and recovery results.** All 168 hours of the pilot week matched the source during reconciliation. After an interruption, the recovered Parquet file matched the original SHA-256 checksum. A repeat run left the day's manifests unchanged. [Acquisition status and benchmarks](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/11995b0ca4063e9babdaa0eeabba065ecec49cf7/Fraport-adsb-intelligence/01-opensky-acquisition/README.md#status-2026-11-14)
+- **Next milestone.** Add batch validation, acceptance records, and backup verification before the first monthly backfill. Curated aviation datasets, Databricks integration, and taxi-in prediction and serving on Google Cloud are planned. [Project plan](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/docs/project-plan.md)
 
-- Docker Compose runtime integrating **Apache Iceberg, Trino, Dagster, MLflow, OpenMetadata, MinIO, and Superset**.
-- A Bronze → Silver → Gold data path, versioned dataset contracts, quality checks, and evidence that links orchestration runs to table snapshots and metadata.
-- Documented architecture decisions and operational checks, with the boundary between what runs today and the planned Kubernetes migration made explicit in the [README](https://github.com/Jiahong-Que-9527/SoloLakehouse#readme).
+The research data stays private. Public examples use synthetic or approved data.
 
-### [RecordChat](https://github.com/Jiahong-Que-9527/Recordchat): source-grounded air-cargo AI
+### Self-hosted finance reference
 
-- A **Next.js + FastAPI + Qdrant** application for questions about ONE Record concepts, JSON-LD, APIs, and NE:ONE.
-- Reviewed public sources, retrieval evaluation, source citations, and template-based JSON-LD examples keep answers inspectable rather than merely fluent.
-- The [README](https://github.com/Jiahong-Que-9527/Recordchat#readme) shows the interface, local run path, and current limits.
+The [versioned finance implementation](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/741e6da82cdc2cad207aa6ee707b8fb157b0174a/projects/finance) shows how I used Dagster, Apache Iceberg, and Trino to process ECB policy rates, exchange rates, and EWG ETF data, with dataset contracts and quality checks across Bronze, Silver, and Gold.
 
-## Background and direction
+## RecordChat
 
-I am a Research Assistant / Doctoral Researcher at Frankfurt University of Applied Sciences, working on applied AI in aviation and logistics. Earlier work includes aviation engineering, software-enabled systems, and research; my doctoral work at Maastricht University focused on natural language processing.
+[RecordChat](https://github.com/Jiahong-Que-9527/Recordchat) is a citation-first assistant for IATA ONE Record and NE:ONE. It uses Next.js, FastAPI, and Qdrant to answer questions about air-cargo data exchange and link readers to the relevant specifications and examples.
 
-**Core tools:** Python · Docker · Apache Iceberg · Trino · Dagster · MLflow · FastAPI · Qdrant
+## Background
 
-**Credentials:** Google Cloud Professional Cloud Architect · Databricks Certified AI Engineer Associate
+I am a Research Assistant at Frankfurt University of Applied Sciences. My work in the [Digital Testbed Air Cargo](https://www.digital-testbed-air-cargo.com/) context includes air-cargo movement classification and explainable ML for airport ground operations. My broader background spans more than ten years in aviation technology, software-enabled systems, and logistics. My doctoral research at Maastricht University focused on natural language processing.
 
-I am interested in **AI Platform, Data Platform, and ML Platform Engineering** roles where domain understanding and reliable delivery matter together, particularly in aviation, logistics, and other complex operational environments.
+**Credentials** · Google Cloud Professional Cloud Architect · Databricks Certified AI Engineer Associate
+
+I am interested in data, AI, and ML platform engineering roles that combine hands-on delivery with complex operational problems.
