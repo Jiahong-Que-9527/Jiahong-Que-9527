@@ -1,4 +1,4 @@
-<h1 align="center">Jiahong Que</h1>
+# ![Jiahong Que - Aviation, logistics and Data & AI Platform Engineering](assets/jiahong-que-aviation-data-ai.png)
 
 <p align="center"><strong>Data/AI Platform Engineer for complex operational domains</strong><br>
 Aviation and air cargo · Frankfurt am Main, Germany · <a href="https://www.linkedin.com/in/jiahong-que-215428258/">LinkedIn</a> · <a href="mailto:jiahong.que@fra-uas.de">Email</a></p>
