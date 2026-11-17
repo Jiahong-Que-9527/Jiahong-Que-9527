@@ -1,37 +1,39 @@
 <h1 align="center">Jiahong Que</h1>
 
-<p align="center"><strong>Data &amp; AI Platform Engineer · Aviation &amp; Air Cargo</strong><br>
-Frankfurt am Main, Germany · <a href="https://www.linkedin.com/in/jiahong-que-215428258/">LinkedIn</a> · <a href="mailto:jiahong.que@fra-uas.de">Email</a></p>
+<p align="center"><strong>Data/AI Platform Engineer for complex operational domains</strong><br>
+Aviation and air cargo · Frankfurt am Main, Germany · <a href="https://www.linkedin.com/in/jiahong-que-215428258/">LinkedIn</a> · <a href="mailto:jiahong.que@fra-uas.de">Email</a></p>
 
-<!-- [房玄龄·2026-11-15] Update project descriptions and links to current engineering evidence. -->
+<!-- [房玄龄·2026-11-17] Align the profile with platform responsibilities, verifiable evidence, and career positioning. -->
 
-I build data pipelines and AI services for aviation, air cargo, and other complex operations. I focus on data quality, traceable outputs, and recovery when a pipeline fails.
+I build data pipelines and domain-specific AI services that people can inspect, rerun, and recover. Aviation is my main proof domain: aircraft observations are incomplete, operational terms are easy to misread, and a successful run means little unless its output can be checked later.
 
-## SoloLakehouse
+My work connects **source meaning → reliable data → usable AI → operating evidence**. I am interested in Data/AI Platform Engineering roles where I can own that path from an operational problem to a trustworthy result.
 
-[SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse) is my personal data and AI engineering project. I version code, data contracts, and tests in Git. The current implementation runs locally, with projects planned for Google Cloud and Databricks.
+## My engineering approach
 
-### Fraport ADS-B Intelligence
+| Responsibility | What I work on | Review the evidence |
+|---|---|---|
+| **Understand the source** | Define observation meaning, coverage, time windows, and known gaps. | [OpenSky acquisition design](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/docs/design.md) |
+| **Engineer the data path** | Build Python ingestion, contracts, validation, Parquet outputs, and batch acceptance. | [Aviation implementation](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/Fraport-adsb-intelligence/01-opensky-acquisition) |
+| **Own reliability** | Reconcile source and output, record checksums, resume work, verify backups, and test reruns. | [Recovery tests](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/tests/test_run.py) · [benchmark](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/docs/benchmark-report.md) |
+| **Make AI accountable** | Separate domain knowledge, cited sources, answer quality, and service availability. | [RecordChat](https://github.com/Jiahong-Que-9527/Recordchat) |
 
-I'm building a historical dataset of aircraft observations around Frankfurt Airport. The [OpenSky ingestion tool](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/Fraport-adsb-intelligence/01-opensky-acquisition) writes hourly ADS-B state vectors to Parquet, records checksums in manifests, and resumes from the last committed hour.
+This is the design principle behind **[SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse)**: start with data meaning, preserve evidence through each step, and make failure and recovery part of the architecture. It is a personal platform engineering reference with separate workloads and explicit delivery boundaries.
 
-- **Pilot and recovery results.** All 168 hours of the pilot week matched the source during reconciliation. After an interruption, the recovered Parquet file matched the original SHA-256 checksum. A repeat run left the day's manifests unchanged. [Acquisition status and benchmarks](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/11995b0ca4063e9babdaa0eeabba065ecec49cf7/Fraport-adsb-intelligence/01-opensky-acquisition/README.md#status-2026-11-14)
-- **Next milestone.** Add batch validation, acceptance records, and backup verification before the first monthly backfill. Curated aviation datasets, Databricks integration, and taxi-in prediction and serving on Google Cloud are planned. [Project plan](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/docs/project-plan.md)
+## Selected work
 
-The research data stays private. Public examples use synthetic or approved data.
+**Frankfurt aviation data foundation.** In [Fraport ADS-B Intelligence](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/Fraport-adsb-intelligence), I am building a historical dataset of aircraft observations around Frankfurt Airport. The implemented OpenSky path collects state vectors and flight records, writes checksummed Parquet manifests, distinguishes source gaps from empty observations, and accepts batches after validation. A pilot-week reconciliation matched **168 of 168 hours**. An interruption and repeat-run check reproduced the committed checksum and preserved the manifests. [Status and evidence](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/README.md)
 
-### Self-hosted finance reference
+The raw research data stays private. Local Silver/Gold processing, cloud analytics, and model serving are staged work.
 
-The [versioned finance implementation](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/741e6da82cdc2cad207aa6ee707b8fb157b0174a/projects/finance) shows how I used Dagster, Apache Iceberg, and Trino to process ECB policy rates, exchange rates, and EWG ETF data, with dataset contracts and quality checks across Bronze, Silver, and Gold.
+**Finance engineering reference.** A [versioned self-hosted implementation](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/741e6da82cdc2cad207aa6ee707b8fb157b0174a/projects/finance) uses Dagster, Apache Iceberg, and Trino for ECB rates, exchange rates, and EWG ETF data. It shows dataset contracts, quality checks, and Bronze/Silver/Gold processing. This link is a historical implementation snapshot.
 
-## RecordChat
+**Air-cargo knowledge interface.** [RecordChat](https://github.com/Jiahong-Que-9527/Recordchat) is a separate interface for IATA ONE Record and NE:ONE knowledge, built with Next.js, FastAPI, and Qdrant. It retrieves relevant material and presents source-linked answers. Source provenance and answer quality require their own evaluation; a citation alone does not establish correctness.
 
-[RecordChat](https://github.com/Jiahong-Que-9527/Recordchat) is a citation-first assistant for IATA ONE Record and NE:ONE. It uses Next.js, FastAPI, and Qdrant to answer questions about air-cargo data exchange and link readers to the relevant specifications and examples.
+## Background and direction
 
-## Background
+I am a Research Assistant at Frankfurt University of Applied Sciences. My work in the [Digital Testbed Air Cargo](https://www.digital-testbed-air-cargo.com/) context includes air-cargo movement classification and explainable ML for airport ground operations. I bring more than ten years of experience across aviation technology, software-enabled systems, and logistics. My doctoral research at Maastricht University focused on natural language processing.
 
-I am a Research Assistant at Frankfurt University of Applied Sciences. My work in the [Digital Testbed Air Cargo](https://www.digital-testbed-air-cargo.com/) context includes air-cargo movement classification and explainable ML for airport ground operations. My broader background spans more than ten years in aviation technology, software-enabled systems, and logistics. My doctoral research at Maastricht University focused on natural language processing.
+**Credentials:** Google Cloud Professional Cloud Architect · Databricks Certified AI Engineer Associate
 
-**Credentials** · Google Cloud Professional Cloud Architect · Databricks Certified AI Engineer Associate
-
-I am interested in data, AI, and ML platform engineering roles that combine hands-on delivery with complex operational problems.
+I am interested in hands-on data, AI, and ML platform roles in Germany and the EU. If you work on data reliability, aviation, logistics, or practical AI systems, [let's connect](https://www.linkedin.com/in/jiahong-que-215428258/).
