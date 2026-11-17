@@ -5,26 +5,24 @@ Aviation and air cargo · Frankfurt am Main, Germany · <a href="https://www.lin
 
 <!-- [房玄龄·2026-11-17] Align the profile with platform responsibilities, verifiable evidence, and career positioning. -->
 
-I build data pipelines and domain-specific AI services that people can inspect, rerun, and recover. Aviation is my main proof domain: aircraft observations are incomplete, operational terms are easy to misread, and a successful run means little unless its output can be checked later.
+<!-- [房玄龄·2026-11-17] Update portfolio scope and measured results. -->
 
-My work connects **source meaning → reliable data → usable AI → operating evidence**. I am interested in Data/AI Platform Engineering roles where I can own that path from an operational problem to a trustworthy result.
+I build data pipelines and domain AI services for operational teams. In aviation, a missing observation and a quiet hour can look alike in the output. I work on making that distinction visible and on giving the next person a way to trace a result back to its source.
 
-## My engineering approach
+## Selected engineering work
 
-| Responsibility | What I work on | Review the evidence |
-|---|---|---|
-| **Understand the source** | Define observation meaning, coverage, time windows, and known gaps. | [OpenSky acquisition design](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/docs/design.md) |
-| **Engineer the data path** | Build Python ingestion, contracts, validation, Parquet outputs, and batch acceptance. | [Aviation implementation](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/Fraport-adsb-intelligence/01-opensky-acquisition) |
-| **Own reliability** | Reconcile source and output, record checksums, resume work, verify backups, and test reruns. | [Recovery tests](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/tests/test_run.py) · [benchmark](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/docs/benchmark-report.md) |
-| **Make AI accountable** | Separate domain knowledge, cited sources, answer quality, and service availability. | [RecordChat](https://github.com/Jiahong-Que-9527/Recordchat) |
+SoloLakehouse is my personal portfolio of independent Data and AI platform engineering projects. Its two flagship cases follow different engineering responsibilities, building a reliable operational dataset and delivering a recoverable software service. [Portfolio map and project status](https://github.com/Jiahong-Que-9527/SoloLakehouse#readme)
 
-This is the design principle behind **[SoloLakehouse](https://github.com/Jiahong-Que-9527/SoloLakehouse)**: start with data meaning, preserve evidence through each step, and make failure and recovery part of the architecture. It is a personal platform engineering reference with separate workloads and explicit delivery boundaries.
+**Fraport ADS-B Intelligence · Operational data engineering.** I built a local collector for aircraft observations around Frankfurt Airport. It reconciles hourly OpenSky data, writes Parquet with checksummed manifests, and resumes after an interruption. By November 2026, I had accepted and backed up **17 monthly batches**. In the pilot week, **168 of 168 hours** matched source aggregates. Recollecting an interrupted hour reproduced its checksum, and a subsequent rerun preserved the manifests. The next stage is to derive airport events with explicit rules for incomplete observations. [Acquisition results](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/README.md) · [Recovery tests](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/tests/test_run.py)
 
-## Selected work
+**DevOps Engineering · Software delivery and recovery.** I designed a seven-stage path for an independent service that reads synthetic electricity-meter audit reports. The first implementation milestone is a reproducible API with tested behavior for both an incomplete dataset and an unreadable report. Later stages follow the same service through image publication, release and rollback, GitOps, incident recovery, and onboarding a second service. [Development plan and acceptance criteria](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/Devops-engineering)
 
-**Frankfurt aviation data foundation.** In [Fraport ADS-B Intelligence](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/Fraport-adsb-intelligence), I am building a historical dataset of aircraft observations around Frankfurt Airport. The implemented OpenSky path collects state vectors and flight records, writes checksummed Parquet manifests, distinguishes source gaps from empty observations, and accepts batches after validation. A pilot-week reconciliation matched **168 of 168 hours**. An interruption and repeat-run check reproduced the committed checksum and preserved the manifests. [Status and evidence](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/Fraport-adsb-intelligence/01-opensky-acquisition/README.md)
+## Platform series
 
-The raw research data stays private. Local Silver/Gold processing, cloud analytics, and model serving are staged work.
+- **Google Cloud · Energy data delivery.** My local SMARD pipeline normalizes German electricity-load observations across daylight-saving changes. Its 2025 audit verified **35,040 continuous quarter-hour intervals** across 12 months. Two annual exports produced the same SHA-256 checksum. The series builds from this local baseline toward scheduled cloud delivery, APIs and events, governed data products, forecasting, and repeatable environment setup. [Annual audit](https://github.com/Jiahong-Que-9527/SoloLakehouse/blob/main/gcp/01-european-energy-pipeline/docs/year-2025-verification.md) · [Cloud roadmap](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/gcp)
+- **Databricks · Financial lakehouse engineering.** Six planned cases use financial time series to explore Delta tables, scheduled ETL, change data capture, Unity Catalog governance, model delivery and reusable lakehouse environments. [Project briefs](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/main/databricks)
+
+## Other work
 
 **Finance engineering reference.** A [versioned self-hosted implementation](https://github.com/Jiahong-Que-9527/SoloLakehouse/tree/741e6da82cdc2cad207aa6ee707b8fb157b0174a/projects/finance) uses Dagster, Apache Iceberg, and Trino for ECB rates, exchange rates, and EWG ETF data. It shows dataset contracts, quality checks, and Bronze/Silver/Gold processing. This link is a historical implementation snapshot.
 
